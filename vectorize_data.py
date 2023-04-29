@@ -19,9 +19,13 @@ def vectorize_text(text):
 
 
 # Vectorize the "Title" and "Description" columns of your dataset
-df["Title"] = df["Title"].apply(lambda x: vectorize_text(x))
-df["Description"] = df["Description"].apply(lambda x: vectorize_text(x))
+def vectorize_video_text():
+    df["Title"] = df["Title"].apply(lambda x: vectorize_text(x))
+    df["Description"] = df["Description"].apply(lambda x: vectorize_text(x))
+
+    # Save Vectorized Dataset
+    df.to_csv("vectorized_dhruv_rathee_videos.csv")
 
 
-# Save Vectorized Dataset
-df.to_csv("vectorized_dhruv_rathee_videos.csv")
+if __name__ == "__main__":
+    vectorize_video_text()
