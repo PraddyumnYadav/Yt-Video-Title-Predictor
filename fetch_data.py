@@ -2,11 +2,14 @@ import csv
 import googleapiclient.discovery as api
 
 
+# Get Key from key.txt
+with open("key.txt") as f:
+    key = f.read()
+
+
 def fetch():
     # Set up the API client
-    youtube = api.build(
-        "youtube", "v3", developerKey="Your_API_Key"
-    )
+    youtube = api.build("youtube", "v3", developerKey=key)
 
     # Get the channel ID for Dhruv Rathee's channel
     channel_response = (
