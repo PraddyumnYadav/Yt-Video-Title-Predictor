@@ -5,6 +5,7 @@
 - I am a **Beginner** in the Field of `Machine Learning`.
 - If You can make this **Project Better** in any ways so Don't Hesitate to **Create** a `Pull Request` or **Open** an `Issue`.
 - If You are `Contributing` to This **Project** then please Give a `Tutorial` of the Concept that You Have used or Tell me the Name of the Concept So that i can **Research and Learn** Further on it.
+- ***Note*** - I am Just a Beginner So If there is any Mistake in the Repository Kindly Fix that.
 
 ## How to Get This Running on Your Machine
 - **Run The Commands** Given Below to `Get This Project Running on Your Machine`.
@@ -33,3 +34,5 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 - ***Congratulations*** now You can Run This Project on Your Machine Flawlessely.
+
+### Thank You
