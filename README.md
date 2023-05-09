@@ -6,6 +6,7 @@
 - If You can make this **Project Better** in any ways so Don't Hesitate to **Create** a `Pull Request` or **Open** an `Issue`.
 - If You are `Contributing` to This **Project** then please Give a `Tutorial` of the Concept that You Have used or Tell me the Name of the Concept So that i can **Research and Learn** Further on it.
 - ***Note*** - I am Just a Beginner So If there is any Mistake in the Repository Kindly Fix that.
+- Now i am Leaving this `Repository` Because for now i am Unable to Create This Project myself i Will be Back Here After **Learning True Skills** for this Like `Deep Learning`.
 
 ## How to Get This Running on Your Machine
 - **Run The Commands** Given Below to `Get This Project Running on Your Machine`.
